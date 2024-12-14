@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    user-select: none;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0a0a0a;
+    border-bottom: 1px solid #1C1C1E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo h1 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.nav-list {
+    display: none;
+}
+
+.agend {
+    background-color: #F0B35B;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.agend:hover {
+    background-color: #E0A34B;
+}
+
+.init {
+    background-image: url('https://framerusercontent.com/images/3vwINVpauY0jbqzBnQVkNe8FmOY.png?scale-down-to=2048');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.init-content {
+    max-width: 600px;
+}
+
+.init-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.init-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #F0B35B;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #E0A34B;
+}
+
+.section-title {
+    color: #F0B35B;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services {
+    background-color: #0D0D0F;
+    border-top: 1px solid #1C1C1E;
+    border-bottom: 1px solid #1C1C1E;
+    padding: 60px 20px;
+}
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.swipe-instruction {
+    color: #888;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.haircut-card {
+    background-color: #101011;
+    border: 1px solid #1C1C1E;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.haircut-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.haircut-card h3 {
+    color: #F0B35B;
+    font-size: 1.2rem;
+    margin: 15px 15px 5px;
+}
+
+.haircut-card p {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin: 0 15px 15px;
+    opacity: 0.8;
+}
+
+.equip {
+    background-color: #0D0D0F;
+    padding: 60px 20px;
+}
+
+.barber-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.barber-card {
+    background-color: #101011;
+    border: 1px solid #1C1C1E;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.barber-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.barber-card h3 {
+    color: #F0B35B;
+    font-size: 1.2rem;
+    margin: 15px 0 5px;
+}
+
+.barber-card p {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #F0B35B;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #E0A34B;
+}
+
+footer {
+    background-color: #0a0a0a;
+    border-top: 1px solid #1C1C1E;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-content p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding: 20px 50px;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin-right: 30px;
+    }
+
+    .nav-list li a {
+        color: #FFFFFF;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+    }
+
+    .nav-list li a:hover, .nav-list li a.active {
+        color:#F0B35B;
+    }
+
+    .init {
+        padding-left: 50px;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .init-content h1 {
+        font-size: 3rem;
+    }
+
+    .barber-card {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar {
+        padding: 20px 100px;
+    }
+
+    .init {
+        padding-left: 100px;
+    }
+
+    .init-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .services, .equip {
+        padding: 80px 100px;
+    }
+}
+

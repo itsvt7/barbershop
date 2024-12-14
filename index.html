@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Barbearia - First Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="no-actions">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Dudu Barbearia</h1>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#servicos" class="nav-link">Portifólio</a></li>
+                <li><a href="#equip" class="nav-link">Equipe</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <button class="agend">Agendar horário</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="init">
+            <div class="init-content">
+                <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
+                <p>Horário de funcionamento: Seg. à Sex. - 09:00 às 19:00</p>
+                <a href="#" class="cta-button">Agendar horário</a>
+            </div>
+        </section>
+
+        <section id="servicos" class="services">
+            <div class="services-container">
+                <h2 class="section-title">Portifólio</h2>
+                <p class="swipe-instruction">Deslize para mais opções</p>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="haircut-card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRMzYyqWudqMImXXuEP5DOQQfIqTW38BdMaA&s" alt="Undercut">
+                                <h3>Undercut</h3>
+                                <p>Contraste dramático entre topo e laterais.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="haircut-card">
+                                <img src="https://i.pinimg.com/474x/e2/13/80/e213806a0a2436487a6aee8cbc3efe33.jpg" alt="Corte Clássico">
+                                <h3>Corte Clássico</h3>
+                                <p>Estilo tradicional que nunca sai de moda.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="haircut-card">
+                                <img src="https://unhasdecoradas2025.com.br/wp-content/uploads/2024/07/corte-de-cabelo-masculino-2025-imagem-agno-black-red.jpg" alt="Fade Moderno">
+                                <h3>Fade Moderno</h3>
+                                <p>Transição suave do curto para o longo.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="haircut-card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_QboChumO4zGBEqBbVWl_gZxecOUHK52iOTkRBp85Qn8cC2NIWGR8EOOXb3RzSdqvXac&usqp=CAU" alt="Pompadour">
+                                <h3>Pompadour</h3>
+                                <p>Volume no topo com laterais curtas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="equip" class="equip">
+            <h2 class="section-title">NOSSA EQUIPE</h2>
+            <div class="barber-container">
+                <div class="barber-card">
+                    <img src="https://images.pexels.com/photos/1836983/pexels-photo-1836983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Eduardo">
+                    <h3>Eduardo</h3>
+                    <p>Especialista em cortes modernos</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="barber-card">
+                    <img src="https://images.unsplash.com/photo-1593702288056-7927b442d0fa?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvdG9zJTIwZGUlMjBjb3J0ZSUyMGRlJTIwY2FiZWxvJTIwZ3IlQzMlQTF0aXN8ZW58MHx8MHx8fDA%3D" alt="Vitor">
+                    <h3>Vitor</h3>
+                    <p>Mestre em barbas e bigodes</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="barber-card">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFyYmVpcm98ZW58MHx8MHx8fDA%3D" alt="Bruno">
+                    <h3>Bruno</h3>
+                    <p>Especialista em coloração</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Dudu Barbearia. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
