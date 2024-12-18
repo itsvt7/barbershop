@@ -14,6 +14,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 .navbar {
@@ -22,7 +23,7 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #0a0a0a;
-    border-bottom: 1px solid #1C1C1E;
+    border: 1px solid #1C1C1E;
     position: fixed;
     top: 0;
     left: 0;
@@ -107,7 +108,7 @@ body {
 .services {
     background-color: #0D0D0F;
     border-top: 1px solid #1C1C1E;
-    border-bottom: 1px solid #1C1C1E;
+    border: 1px solid #1C1C1E;
     padding: 60px 20px;
 }
 
